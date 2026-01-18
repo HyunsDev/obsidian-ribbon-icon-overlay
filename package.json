@@ -1,11 +1,25 @@
 {
   "name": "obsidian-ribbon-icon-overlay",
-  "version": "0.0.1",
-  "private": true,
+  "version": "1.0.0",
+  "private": false,
+  "main": "main.js",
+  "type": "module",
   "scripts": {
     "build": "node esbuild.config.mjs production",
-    "dev": "node esbuild.config.mjs development"
+    "dev": "node esbuild.config.mjs development",
+    "version": "node version-bump.mjs && git add manifest.json versions.json"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hyunsdev/obsidian-ribbon-icon-overlay"
+  },
+  "bugs": {
+    "url": "https://github.com/hyunsdev/obsidian-ribbon-icon-overlay/issues"
+  },
+  "keywords": [
+    "obsidian",
+    "plugin"
+  ],
   "devDependencies": {
     "esbuild": "^0.21.0",
     "obsidian": "^1.6.0",
