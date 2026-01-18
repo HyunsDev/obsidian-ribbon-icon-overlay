@@ -1,0 +1,17 @@
+{
+  "name": "obsidian-ribbon-icon-overlay",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "node esbuild.config.mjs production",
+    "dev": "node esbuild.config.mjs development"
+  },
+  "devDependencies": {
+    "esbuild": "^0.21.0",
+    "obsidian": "^1.6.0",
+    "typescript": "^5.5.0"
+  },
+  "dependencies": {
+    "simple-icons": "^13.0.0"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "obsidian-ribbon-icon-overlay",
+  "name": "Ribbon Icon Overlay",
+  "version": "0.0.1",
+  "minAppVersion": "1.4.0",
+  "description": "Overrides specific UI icons by class + aria-label using Simple Icons SVGs.",
+  "author": "HyunsDev",
+  "authorUrl": "https://hyuns.dev",
+  "isDesktopOnly": false
+}
